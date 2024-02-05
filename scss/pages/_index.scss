@@ -11,8 +11,6 @@ a {
 .toy-section{
      margin-top: 50px;
      padding: 40px;
-     
-     
      .big-img{
           width: 400px;
           height: 455px;
@@ -41,7 +39,7 @@ a {
                img{
                     width: 104px;
                     height: 78px;
-                    padding: 20px;
+                    padding: 10px;
                }
      }
 
@@ -210,6 +208,108 @@ a {
                     font-size: 16px;
                     line-height: 26px;
                     color: #435970;
+               }
+          }
+     }
+}
+// mid 
+.mid{
+     margin-top: 120px;
+     height: 250px;
+     margin-bottom: 300px;
+     .mid-box{
+          width: 808px;
+          height: 244px;
+          display: flex;
+          justify-content: space-between;
+          .first{
+               display: flex;
+               flex-direction: column;
+               gap: 30px;
+               .des{
+                    width: 150px;
+                    height: 60px;
+                    background: #FAFAFF;
+                    border-radius: 5px;
+                    span{
+                         width: 90px;
+                         height: 30px;
+                         font-family: 'Space Grotesk';
+                         font-weight: 700;
+                         font-size: 16px;
+                         line-height: 30px;
+                         color: #001F3F;
+                    };
+               }
+               .addi{
+                    width: 234px;
+                    height: 60px;
+                    background: #FF5A30;
+                    border-radius: 5px;
+                    position: relative;
+                    span{
+                         font-family: 'Space Grotesk';
+                         font-style: normal;
+                         font-weight: 700;
+                         font-size: 16px;
+                         line-height: 30px;
+                         color: #FFFFFF;
+                    }
+                    &::before{
+                         position: absolute;
+                         content: '';
+                         width: 152px;
+                         height: 4px;
+                         background: #FF5A30;
+                         border-radius: 5px;
+                         top: 50%;
+                         left: 80%;
+
+                    }
+               }
+               .rev{
+                    width: 123px;
+                    height: 60px;
+                    background: #FAFAFF;
+                    border-radius: 5px;
+                    span{
+                         width: 90px;
+                         height: 30px;
+                         font-family: 'Space Grotesk';
+                         font-weight: 700;
+                         font-size: 16px;
+                         line-height: 30px;
+                         color: #001F3F;
+                    };
+               }
+          }
+          .box{
+               h5{
+                    width: 117px;
+                    height: 20px;
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #FF5A30;
+               }
+               li{
+                    padding: 20px 0;
+                    height: 26px;
+                    font-family: 'Space Grotesk';
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #001F3F;
+                    span{
+                         height: 26px;
+                         font-family: 'Space Grotesk';
+                         font-weight: 400;
+                         font-size: 16px;
+                         line-height: 26px;
+                         color: #435970;
+                    }
                }
           }
      }
