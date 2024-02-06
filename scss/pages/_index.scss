@@ -11,217 +11,225 @@ a {
 .toy-section{
      margin-top: 50px;
      padding: 40px;
-     .big-img{
-          width: 400px;
-          height: 455px;
-          background: #FAFAFF;
-          border-radius: 5px;
-          position: relative;
-          img{
-               position: absolute;
-               width: 288px;
-               height: 214px;
-               left: 15%;
-               top: 23%;
-          }
-     }
-     .sort{
-          width: 104px;
-          height: 455px;
-          padding: 30px 0;
-          // border: 1px solid gray;
-          background: #FAFAFF;
-          .sort-img{
-               display: flex;
-               flex-direction: column;
-               gap: 20px;
-               text-align: center;
+     .Details{
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          .big-img{
+               width: 400px;
+               height: 455px;
+               background: #FAFAFF;
+               border-radius: 5px;
+               position: relative;
                img{
-                    width: 104px;
-                    height: 78px;
-                    padding: 10px;
+                    position: absolute;
+                    width: 288px;
+                    height: 214px;
+                    left: 15%;
+                    top: 23%;
                }
+          }
+          .sort{
+               width: 104px;
+               height: 455px;
+               padding: 30px 0;
+               // border: 1px solid gray;
+               background: #FAFAFF;
+               .sort-img{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    text-align: center;
+                    img{
+                         width: 104px;
+                         height: 78px;
+                         padding: 10px;
+                    }
+          }
+     
+           
      }
-
-      
-}
-}
-.text-side{
+     .text-side{
     
-     height: 455px;
-     width: 100%;
-     margin-left: -60px;
-     .top-text{
-          .h-top{
-               display: flex;
-               justify-content: space-between;
-               align-items: center;
-               .h-l{
-                    ul{
+          height: 455px;
+          width: 100%;
+          // margin-left: -60px;
+          .top-text{
+               .h-top{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .h-l{
+                         ul{
+                              color: #FF5A30;
+                         }
+                         .heading{
+                              width: 162px;
+                              height: 20px;
+                              font-family: 'Space Grotesk';
+                              font-weight: 700;
+                              font-size: 15px;
+                              line-height: 20px;
+                              color: #001F3F;
+                         }
+                    }
+                    .h-r{
+                         display: flex;
+                         gap: 3px;
+                         .del{
+                              width: 65px;
+                              height: 26px;
+                              font-family: 'Space Grotesk';
+                              font-style: normal;
+                              font-weight: 500;
+                              font-size: 16px;
+                              line-height: 26px;
+                              text-transform: uppercase;
+                              color: #001F3F;
+                         }
+                         .price{
+                              width: 66px;
+                              height: 30px;
+                              font-family: 'Space Grotesk';
+                              font-weight: 700;
+                              font-size: 16px;
+                              line-height: 30px;
+                              color: #FF5A30;
+                         }
+                    }
+               }
+               .pera{
+                    padding-top: 30px;
+                    width: 459px;
+                    height: 78px;
+                    font-family: 'Space Grotesk';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #435970;
+               }
+          }
+          .quantity{
+                margin-top: 40px;
+               h4{
+                    width: 72px;
+                    height: 26px;
+                    font-family: 'Space Grotesk';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #001F3F;
+               }
+               .btN{
+                     margin-top: 23px;
+                    .add-cart{
+                         width: 166px;
+                         height: 50px;
+                         background: #FF5A30;
+                         border-radius: 5px;
+                         transition: all 0.4s ease-in-out;
+                         i{
+                              color: #Fff;
+                         }
+                         span{
+                              width: 100px;
+                              height: 26px;
+                              font-family: 'Space Grotesk';
+                              font-weight: 500;
+                              font-size: 16px;
+                              line-height: 26px;
+                              text-transform: uppercase;
+                              color: #FFFFFF;
+                              padding-left: 3px;
+                         }
+                         &:hover{
+                              background: #001F3F;
+                              
+                         }
+                    }
+                    .count{
+                         box-sizing: border-box;
+                         width: 118px;
+                         height: 50px;
+                         background: #FFFFFF;
+                         border: 1px solid #C1D4E8;
+                         border-radius: 5px;
+                          span{
+                              width: 18px;
+                              height: 26px;
+                              font-family: 'Space Grotesk';
+                              font-weight: 500;
+                              font-size: 16px;
+                              line-height: 26px;
+                              text-transform: uppercase;
+                              color: #001F3F;
+                              padding: 0 5px;
+                          }
+                    }
+               }
+          }
+          .systems{
+               margin-top: 30px ;
+               display: grid;
+               grid-template-columns: repeat(3,1fr);
+               grid-gap:10px;
+               .system{
+                    
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    i{
                          color: #FF5A30;
                     }
-                    .heading{
-                         width: 162px;
+                    .head{
+                         // width: 94px;
                          height: 20px;
                          font-family: 'Space Grotesk';
+                         font-style: normal;
                          font-weight: 700;
                          font-size: 15px;
                          line-height: 20px;
                          color: #001F3F;
                     }
-               }
-               .h-r{
-                    display: flex;
-                    gap: 3px;
-                    .del{
-                         width: 65px;
+                    .head2{
+                         // width: 72px;
                          height: 26px;
                          font-family: 'Space Grotesk';
                          font-style: normal;
-                         font-weight: 500;
+                         font-weight: 400;
                          font-size: 16px;
                          line-height: 26px;
-                         text-transform: uppercase;
-                         color: #001F3F;
-                    }
-                    .price{
-                         width: 66px;
-                         height: 30px;
-                         font-family: 'Space Grotesk';
-                         font-weight: 700;
-                         font-size: 16px;
-                         line-height: 30px;
-                         color: #FF5A30;
+                         color: #435970;
                     }
                }
           }
-          .pera{
-               padding-top: 10px;
-               width: 459px;
-               height: 78px;
-               font-family: 'Space Grotesk';
-               font-weight: 400;
-               font-size: 16px;
-               line-height: 26px;
-               color: #435970;
-          }
-     }
-     .quantity{
-          padding: 40px 0;
-          h4{
-               width: 72px;
-               height: 26px;
-               font-family: 'Space Grotesk';
-               font-weight: 400;
-               font-size: 16px;
-               line-height: 26px;
-               color: #001F3F;
-          }
-          .btN{
-               padding: 10px 0;
-               .add-cart{
-                    width: 166px;
-                    height: 50px;
-                    background: #FF5A30;
-                    border-radius: 5px;
-                    transition: all 0.4s ease-in-out;
-                    i{
-                         color: #Fff;
-                    }
-                    span{
-                         width: 100px;
-                         height: 26px;
-                         font-family: 'Space Grotesk';
-                         font-weight: 500;
-                         font-size: 16px;
-                         line-height: 26px;
-                         text-transform: uppercase;
-                         color: #FFFFFF;
-                         padding-left: 3px;
-                    }
-                    &:hover{
-                         background: #001F3F;
-                         
-                    }
-               }
-               .count{
-                    box-sizing: border-box;
-                    width: 118px;
-                    height: 50px;
-                    background: #FFFFFF;
-                    border: 1px solid #C1D4E8;
-                    border-radius: 5px;
-                     span{
-                         width: 18px;
-                         height: 26px;
-                         font-family: 'Space Grotesk';
-                         font-weight: 500;
-                         font-size: 16px;
-                         line-height: 26px;
-                         text-transform: uppercase;
-                         color: #001F3F;
-                         padding: 0 5px;
-                     }
-               }
-          }
-     }
-     .systems{
-          // padding-top: 20px ;
-          display: grid;
-          grid-template-columns: repeat(3,1fr);
-          grid-gap:10px;
-          .system{
-               padding: 0 10px;
-               display: flex;
-               align-items: center;
-               gap: 15px;
-               i{
-                    color: #FF5A30;
-               }
-               .head{
-                    // width: 94px;
-                    height: 20px;
+          .last{
+                margin-top: 49px;
+               .sku{
+                    // width: 95px;
+                    margin-bottom: 22px;
+                    height: 26px;
                     font-family: 'Space Grotesk';
-                    font-style: normal;
                     font-weight: 700;
                     font-size: 15px;
                     line-height: 20px;
                     color: #001F3F;
-               }
-               .head2{
-                    // width: 72px;
-                    height: 26px;
-                    font-family: 'Space Grotesk';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 26px;
-                    color: #435970;
-               }
-          }
-     }
-     .last{
-          padding: 50px 0;
-          .sku{
-               // width: 95px;
-               height: 26px;
-               font-family: 'Space Grotesk';
-               font-weight: 700;
-               font-size: 15px;
-               line-height: 20px;
-               color: #001F3F;
-               span{
-                  
-                    height: 26px;
-                    font-family: 'Space Grotesk';
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 26px;
-                    color: #435970;
+                    span{
+                       
+                         height: 26px;
+                         font-family: 'Space Grotesk';
+                         font-weight: 400;
+                         font-size: 16px;
+                         line-height: 26px;
+                         color: #435970;
+                    }
                }
           }
      }
+     }
+ 
 }
+
 // mid 
 .mid{
      margin-top: 120px;
@@ -230,11 +238,13 @@ a {
           width: 808px;
           height: 244px;
           display: flex;
-          justify-content: space-between;
+          gap: 30px;
           .first{
+               width: 386px;
                display: flex;
                flex-direction: column;
                gap: 30px;
+              
                .des{
                     width: 150px;
                     height: 60px;
@@ -281,7 +291,7 @@ a {
                          background: #FF5A30;
                          border-radius: 5px;
                          top: 50%;
-                         left: 80%;
+                         left: 100%;
                          z-index: -1;
 
                     }
@@ -313,6 +323,7 @@ a {
                }
           }
           .box{
+              
                h5{
                     width: 117px;
                     height: 20px;
@@ -324,7 +335,7 @@ a {
                     color: #FF5A30;
                }
                li{
-                    padding: 20px 0;
+                    padding: 24px 0;
                     height: 26px;
                     font-family: 'Space Grotesk';
                     font-weight: 700;
@@ -345,6 +356,7 @@ a {
 }
 // related card
 .related{
+     margin-top: 200px;
      margin-bottom: 300px;
      
      .related-heading{
@@ -359,7 +371,11 @@ a {
      }
      .boxs{
           padding: 30px 0;
+          cursor: pointer;
+          transition:all 0.3s ease-in-out;
+          position: relative;
           .card-box{
+           
                width: 270px;
                text-align: center;
                .d-img{
@@ -376,12 +392,17 @@ a {
                          color: #FF5A30
                     };
                }
+
                .name{
                     font-family: 'Space Grotesk';
                     font-weight: 700;
                     font-size: 15px;
                     line-height: 20px;
                     color: #001F3F;
+                    transition: all 0.4s ease-in-out;
+                    &:hover{
+                         color: #FF5A30;
+                    }
                }
                .price{
                     font-family: 'Space Grotesk';
@@ -399,7 +420,50 @@ a {
                          color: #FF5A30;
                     }
                }
+                
           }
-          
+
+          .overlay-box{
+               display: none;
+               position: absolute;
+               top: 7%;
+               left: 0;
+               width: 272px;
+               height: 160px;
+               background: rgba(0, 31, 63, 0.8);
+               border-radius: 5px;
+               opacity: 0.9;
+               padding: 45%  15%;
+               transition:all 0.3s ease-in-out;
+               .add-cart{
+                    width: 166px;
+                    height: 50px;
+                    background: #FF5A30;
+                    border-radius: 5px;
+                    transition: all 0.4s ease-in-out;
+                    i{
+                         color: #Fff;
+                    }
+                    span{
+                         width: 100px;
+                         height: 26px;
+                         font-family: 'Space Grotesk';
+                         font-weight: 500;
+                         font-size: 16px;
+                         line-height: 26px;
+                         text-transform: uppercase;
+                         color: #FFFFFF;
+                         padding-left: 3px;
+                    }
+                    &:hover{
+                         background: #001F3F;
+                         
+                    }
+               }
+
+          }
+          &:hover .overlay-box{
+               display: block;
+          }
      }
 }
